@@ -45,7 +45,7 @@ Start development server:
 npm start
 
 Access at: http://localhost:3000
-🧪 
+
 Testing
 
 Run test suite:
