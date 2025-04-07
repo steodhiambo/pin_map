@@ -48,3 +48,9 @@ coverage/
 .dockerignore
 .docker-compose.override.yml
 .docker-compose.override.yaml
+
+# Rails directories
+log/
+tmp/
+storage/
+vendor/
