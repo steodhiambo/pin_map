@@ -1,0 +1,3 @@
+echo "web: bin/rails server -p 3000
+css: npm run watch:css
+js: npm run build -- --watch" > Procfile.dev

@@ -1,0 +1,50 @@
+# Ruby/Rails
+/.bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+/public/assets
+/config/master.key
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
+# Node.js
+/node_modules
+package-lock.json
+yarn.lock
+
+# Environment files
+.env*
+!.env.example
+!.env.development.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build and cache
+.cache/
+dist/
+build/
+coverage/
+*.log
+
+# Docker
+.dockerignore
+.docker-compose.override.yml
+.docker-compose.override.yaml
